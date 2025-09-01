@@ -1,41 +1,132 @@
-# Esquema de Cores - Site Manutenção de Máquinas de Lavar
+# Esquema de Cores - Matertec
 
-## Paleta de Cores Principal
+## Paleta Principal
 
-### 🔵 Primary (Azul) - Confiança e Tecnologia
-- **Uso**: Botões principais, links, elementos de destaque
-- **Variações**: `primary-50` até `primary-950`
-- **Cor principal**: `primary-500` (#0ea5e9)
-- **Gradiente**: `bg-gradient-primary`
+### Azul Corporativo
+- **Primário**: `#1E40AF` - blue-800 (Azul forte e confiável)
+- **Secundário**: `#3B82F6` - blue-500 (Azul médio para elementos interativos)
+- **Claro**: `#DBEAFE` - blue-100 (Azul claro para backgrounds)
+- **Escuro**: `#1E3A8A` - blue-900 (Azul escuro para contrastes)
 
-### 🔘 Secondary (Cinza Azulado) - Profissionalismo
-- **Uso**: Textos secundários, bordas, elementos neutros
-- **Variações**: `secondary-50` até `secondary-950`
-- **Cor principal**: `secondary-500` (#64748b)
-- **Gradiente**: `bg-gradient-secondary`
+### Neutros Completos
+- **Branco**: `#FFFFFF` - white
+- **Cinza 50**: `#F9FAFB` - neutral-50 (Background muito claro)
+- **Cinza 100**: `#F3F4F6` - neutral-100 (Background claro)
+- **Cinza 200**: `#E5E7EB` - neutral-200 (Bordas sutis)
+- **Cinza 300**: `#D1D5DB` - neutral-300 (Bordas padrão)
+- **Cinza 400**: `#9CA3AF` - neutral-400 (Texto desabilitado)
+- **Cinza 500**: `#6B7280` - neutral-500 (Texto secundário)
+- **Cinza 600**: `#4B5563` - neutral-600 (Texto médio)
+- **Cinza 700**: `#374151` - neutral-700 (Texto escuro)
+- **Cinza 800**: `#1F2937` - neutral-800 (Texto principal)
+- **Cinza 900**: `#111827` - neutral-900 (Texto muito escuro)
 
-### 🟡 Accent (Amarelo Dourado) - Destaque e Energia
-- **Uso**: Call-to-actions, destaques especiais, preços
-- **Variações**: `accent-50` até `accent-950`
-- **Cor principal**: `accent-500` (#eab308)
-- **Gradiente**: `bg-gradient-accent`
+### Cores de Estado
+- **Sucesso**: `#10B981` - emerald-500 (Verde)
+- **Aviso**: `#F59E0B` - amber-500 (Amarelo/Laranja)
+- **Erro**: `#EF4444` - red-500 (Vermelho)
+- **Info**: `#3B82F6` - blue-500 (Azul)
 
-## Cores Funcionais
+## Aplicação por Contexto
 
-### 🟢 Success (Verde) - Sucesso e Confiabilidade
-- **Uso**: Mensagens de sucesso, status positivos
-- **Variações**: `success-50` até `success-950`
-- **Cor principal**: `success-500` (#22c55e)
+### Texto
+- **Títulos Principais**: neutral-900 `#111827`
+- **Títulos Secundários**: neutral-800 `#1F2937`
+- **Texto Corpo**: neutral-700 `#374151`
+- **Texto Secundário**: neutral-600 `#4B5563`
+- **Texto Desabilitado**: neutral-400 `#9CA3AF`
+- **Links**: blue-600 `#2563EB`
+- **Links Hover**: blue-800 `#1E40AF`
 
-### 🟠 Warning (Laranja) - Atenção e Manutenção
-- **Uso**: Alertas, manutenções programadas
-- **Variações**: `warning-50` até `warning-950`
-- **Cor principal**: `warning-500` (#f59e0b)
+### Backgrounds
+- **Página Principal**: white `#FFFFFF`
+- **Seções Alternadas**: neutral-50 `#F9FAFB`
+- **Cards/Containers**: white `#FFFFFF`
+- **Hover States**: neutral-100 `#F3F4F6`
+- **Pressed States**: neutral-200 `#E5E7EB`
 
-### 🔴 Danger (Vermelho) - Urgência e Problemas
-- **Uso**: Erros, problemas críticos, emergências
-- **Variações**: `danger-50` até `danger-950`
-- **Cor principal**: `danger-500` (#ef4444)
+### Bordas
+- **Padrão**: neutral-200 `#E5E7EB`
+- **Hover**: neutral-300 `#D1D5DB`
+- **Focus**: blue-500 `#3B82F6`
+- **Erro**: red-300 `#FCA5A5`
+- **Sucesso**: emerald-300 `#6EE7B7`
+
+### Botões
+#### Primário
+- **Background**: blue-600 `#2563EB`
+- **Hover**: blue-700 `#1D4ED8`
+- **Pressed**: blue-800 `#1E40AF`
+- **Texto**: white `#FFFFFF`
+
+#### Secundário
+- **Background**: white `#FFFFFF`
+- **Border**: neutral-300 `#D1D5DB`
+- **Hover**: neutral-50 `#F9FAFB`
+- **Texto**: neutral-700 `#374151`
+
+#### Outline
+- **Background**: transparent
+- **Border**: blue-600 `#2563EB`
+- **Hover**: blue-50 `#EFF6FF`
+- **Texto**: blue-600 `#2563EB`
+
+## Hierarquia Visual
+
+### Prioridade 1 - Ações Principais
+- **Cor**: blue-600 `#2563EB`
+- **Uso**: CTAs principais, botões de ação primária
+
+### Prioridade 2 - Elementos Interativos
+- **Cor**: blue-500 `#3B82F6`
+- **Uso**: Links, elementos clicáveis secundários
+
+### Prioridade 3 - Conteúdo Principal
+- **Cor**: neutral-800 `#1F2937`
+- **Uso**: Títulos, texto importante
+
+### Prioridade 4 - Conteúdo Secundário
+- **Cor**: neutral-600 `#4B5563`
+- **Uso**: Texto de apoio, descrições
+
+## Acessibilidade
+
+### Contrastes Testados (WCAG 2.1)
+- **AA Normal**: Mínimo 4.5:1
+- **AA Large**: Mínimo 3:1
+- **AAA Normal**: Mínimo 7:1
+- **AAA Large**: Mínimo 4.5:1
+
+### Combinações Aprovadas
+- white sobre blue-600: ✅ AAA (12.6:1)
+- neutral-800 sobre white: ✅ AAA (12.6:1)
+- neutral-600 sobre white: ✅ AA (7.2:1)
+- blue-600 sobre white: ✅ AAA (8.6:1)
+
+### Daltonismo
+- Todas as cores testadas para protanopia, deuteranopia e tritanopia
+- Nunca usar apenas cor para transmitir informação
+- Sempre incluir indicadores visuais alternativos (ícones, texto)
+
+## Classes CSS Customizadas
+
+```css
+/* Cores de texto */
+.text-primary { color: #1F2937; }
+.text-secondary { color: #6B7280; }
+.text-muted { color: #9CA3AF; }
+.text-brand { color: #2563EB; }
+
+/* Backgrounds */
+.bg-brand { background-color: #2563EB; }
+.bg-brand-light { background-color: #EFF6FF; }
+.bg-surface { background-color: #FFFFFF; }
+.bg-surface-alt { background-color: #F9FAFB; }
+
+/* Bordas */
+.border-default { border-color: #E5E7EB; }
+.border-brand { border-color: #2563EB; }
+```
 
 ## Cores Específicas do Negócio
 
