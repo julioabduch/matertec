@@ -48,6 +48,32 @@ matertec/
 
 ### Cores de Destaque
 - **Verde Sucesso**: `#10B981` (emerald-500)
+
+## 🎨 Gradientes e Legibilidade
+
+### Padrão de Gradientes Suaves
+Para garantir a melhor legibilidade do texto, **SEMPRE** use as versões suaves dos gradientes em seções com conteúdo textual:
+
+#### Classes de Seção Recomendadas:
+- `.section-hero-soft` - Para seções hero com gradiente suave
+- `.section-professional-soft` - Para seções profissionais com gradiente suave
+- `.section-clean-soft` - Para seções clean com gradiente suave
+- `.section-industrial-soft` - Para seções industriais com gradiente suave
+
+#### Gradientes CSS Disponíveis:
+```css
+/* Gradientes suaves com opacidade reduzida para melhor legibilidade */
+--gradient-professional-soft: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(14, 165, 233, 0.85) 50%, rgba(20, 184, 166, 0.90) 100%);
+--gradient-hero-soft: linear-gradient(135deg, rgba(14, 165, 233, 0.90) 0%, rgba(20, 184, 166, 0.85) 50%, rgba(34, 197, 94, 0.90) 100%);
+--gradient-clean-soft: linear-gradient(135deg, rgba(20, 184, 166, 0.90) 0%, rgba(13, 148, 136, 0.95) 100%);
+--gradient-industrial-soft: linear-gradient(135deg, rgba(51, 65, 85, 0.95) 0%, rgba(30, 41, 59, 0.90) 100%);
+```
+
+#### Regras de Uso:
+1. **SEMPRE** use gradientes suaves (`.section-*-soft`) em seções com texto
+2. Use overlay sutil adicional se necessário: `<div class="absolute inset-0 bg-slate-900/10"></div>`
+3. Mantenha contraste adequado entre texto e background
+4. Teste a legibilidade em diferentes dispositivos e tamanhos de tela
 - **Vermelho Erro**: `#EF4444` (red-500)
 - **Amarelo Aviso**: `#F59E0B` (amber-500)
 - **Azul Info**: `#3B82F6` (blue-500)

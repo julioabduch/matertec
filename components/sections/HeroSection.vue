@@ -1,8 +1,7 @@
 <template>
-  <section class="section-hero relative overflow-hidden">
-    <!-- Background com gradiente -->
-    <div class="absolute inset-0 bg-gradient-hero opacity-95"></div>
-    <div class="absolute inset-0 bg-gradient-to-br from-primary-950/30 via-transparent to-secondary-500/20"></div>
+  <section class="section-hero-soft relative overflow-hidden">
+    <!-- Background com gradiente suave para melhor legibilidade -->
+    <div class="absolute inset-0 bg-slate-900/10"></div>
     
     <!-- Conteúdo principal -->
     <div class="relative z-10 container-section py-20 lg:py-32">

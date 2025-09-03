@@ -4,6 +4,7 @@
       @request-quote="handleRequestQuote"
       @contact-whatsapp="handleWhatsAppContact"
     />
+    <SectionsAboutSection />
   </div>
 </template>
 

@@ -26,6 +26,12 @@
   --gradient-professional: linear-gradient(135deg, #1e293b 0%, #0ea5e9 50%, #14b8a6 100%);
   --gradient-clean: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
   --gradient-industrial: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+  
+  /* Gradientes suaves para melhor legibilidade */
+  --gradient-professional-soft: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(14, 165, 233, 0.85) 50%, rgba(20, 184, 166, 0.90) 100%);
+  --gradient-hero-soft: linear-gradient(135deg, rgba(14, 165, 233, 0.90) 0%, rgba(20, 184, 166, 0.85) 50%, rgba(34, 197, 94, 0.90) 100%);
+  --gradient-clean-soft: linear-gradient(135deg, rgba(20, 184, 166, 0.90) 0%, rgba(13, 148, 136, 0.95) 100%);
+  --gradient-industrial-soft: linear-gradient(135deg, rgba(51, 65, 85, 0.95) 0%, rgba(30, 41, 59, 0.90) 100%);
 }
 
 /* Classes de componentes personalizadas */
@@ -79,6 +85,27 @@
   
   .section-industrial {
     @apply bg-gradient-industrial text-white;
+  }
+  
+  /* Seções com gradientes suaves para melhor legibilidade */
+  .section-hero-soft {
+    background: var(--gradient-hero-soft);
+    @apply text-white;
+  }
+  
+  .section-professional-soft {
+    background: var(--gradient-professional-soft);
+    @apply text-white;
+  }
+  
+  .section-clean-soft {
+    background: var(--gradient-clean-soft);
+    @apply text-white;
+  }
+  
+  .section-industrial-soft {
+    background: var(--gradient-industrial-soft);
+    @apply text-white;
   }
   
   /* Textos com gradientes */
