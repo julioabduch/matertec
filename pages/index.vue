@@ -5,6 +5,10 @@
       @contact-whatsapp="handleWhatsAppContact"
     />
     <SectionsAboutSection />
+    <SectionsBrandsSection />
+    <SectionsServicesSection />
+    <SectionsMaintenanceSection />
+    <SectionsPortfolioSection />
   </div>
 </template>
 

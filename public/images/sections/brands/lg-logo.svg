@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- LG Logo -->
+  <rect width="200" height="80" rx="12" fill="white"/>
+  <circle cx="100" cy="40" r="30" fill="#dc2626"/>
+  <circle cx="100" cy="40" r="25" fill="white"/>
+  <text x="88" y="48" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#dc2626">L</text>
+  <text x="108" y="48" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#dc2626">G</text>
+  <circle cx="115" cy="35" r="3" fill="#dc2626"/>
+  <path d="M85 30 L85 50 L95 50" stroke="#dc2626" stroke-width="2" fill="none"/>
+  <rect x="40" y="65" width="120" height="8" rx="4" fill="#dc2626"/>
+</svg>

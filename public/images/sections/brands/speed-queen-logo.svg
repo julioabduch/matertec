@@ -1,0 +1,15 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speed Queen Logo -->
+  <defs>
+    <linearGradient id="speedQueenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="80" rx="12" fill="url(#speedQueenGrad)"/>
+  <text x="100" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">SPEED</text>
+  <text x="100" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">QUEEN</text>
+  <circle cx="25" cy="40" r="8" fill="#fbbf24"/>
+  <circle cx="175" cy="40" r="8" fill="#fbbf24"/>
+  <rect x="20" y="60" width="160" height="4" rx="2" fill="#fbbf24"/>
+</svg>
