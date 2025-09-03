@@ -1,13 +1,13 @@
 <template>
   <div class="brand-grid">
     <!-- Grid responsivo de marcas -->
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-12 items-center justify-items-center">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-12 items-center justify-items-center">
       
       <!-- Speed Queen -->
       <div class="brand-item">
         <div class="brand-logo-container">
           <img 
-            src="/images/sections/brands/speed-queen-logo.svg" 
+            src="/images/sections/brands/speed.webp" 
             alt="Speed Queen" 
             class="brand-logo"
             loading="lazy"
@@ -19,7 +19,7 @@
       <div class="brand-item">
         <div class="brand-logo-container">
           <img 
-            src="/images/sections/brands/lg-logo.svg" 
+            src="/images/sections/brands/lg.webp" 
             alt="LG" 
             class="brand-logo"
             loading="lazy"
@@ -31,44 +31,8 @@
       <div class="brand-item">
         <div class="brand-logo-container">
           <img 
-            src="/images/sections/brands/electrolux-logo.svg" 
+            src="/images/sections/brands/electrolux.webp" 
             alt="Electrolux" 
-            class="brand-logo"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      
-      <!-- Whirlpool -->
-      <div class="brand-item">
-        <div class="brand-logo-container">
-          <img 
-            src="/images/sections/brands/whirlpool-logo.svg" 
-            alt="Whirlpool" 
-            class="brand-logo"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      
-      <!-- Brastemp -->
-      <div class="brand-item">
-        <div class="brand-logo-container">
-          <img 
-            src="/images/sections/brands/brastemp-logo.svg" 
-            alt="Brastemp" 
-            class="brand-logo"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      
-      <!-- Consul -->
-      <div class="brand-item">
-        <div class="brand-logo-container">
-          <img 
-            src="/images/sections/brands/consul-logo.svg" 
-            alt="Consul" 
             class="brand-logo"
             loading="lazy"
           />
@@ -79,7 +43,7 @@
       <div class="brand-item">
         <div class="brand-logo-container">
           <img 
-            src="/images/sections/brands/samsung-logo.svg" 
+            src="/images/sections/brands/samsung.webp" 
             alt="Samsung" 
             class="brand-logo"
             loading="lazy"
@@ -87,7 +51,7 @@
         </div>
       </div>
       
-      <!-- Outras marcas (placeholder) -->
+      <!-- Outras marcas -->
       <div class="brand-item">
         <div class="brand-logo-container flex items-center justify-center">
           <div class="text-center">
@@ -96,7 +60,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
               </svg>
             </div>
-            <span class="text-sm text-white/70 font-public-medium">Outras marcas</span>
+            <span class="text-sm text-white/70 font-public-medium">e outras marcas</span>
           </div>
         </div>
       </div>
@@ -125,7 +89,7 @@
 }
 
 .brand-logo {
-  @apply max-w-full max-h-16 w-auto h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300;
+  @apply max-w-full max-h-20 w-auto h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300;
 }
 
 /* Responsividade para logos */
@@ -135,7 +99,7 @@
   }
   
   .brand-logo {
-    @apply max-h-12;
+    @apply max-h-16;
   }
 }
 </style>

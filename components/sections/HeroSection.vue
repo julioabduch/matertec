@@ -3,8 +3,28 @@
     <!-- Background com gradiente suave para melhor legibilidade -->
     <div class="absolute inset-0 bg-slate-900/10"></div>
     
+    <!-- Logo em destaque -->
+    <div class="relative z-10 text-center pt-8 pb-4">
+      <div class="inline-block">
+        <!-- Frame decorativo para a logo -->
+        <div class="relative">
+          <div class="absolute -inset-3 bg-gradient-to-br from-secondary-500/30 to-primary-950/20 rounded-2xl blur-sm"></div>
+          <div class="relative bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-2xl border border-secondary-500/20">
+            <img 
+              src="/images/sections/hero/logo.png" 
+              alt="Matertec Logo" 
+              class="h-16 lg:h-20 w-auto mx-auto"
+              loading="eager"
+            />
+          </div>
+          <!-- Efeito de brilho sutil -->
+          <div class="absolute -inset-1 border border-secondary-500/30 rounded-xl pointer-events-none"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- Conteúdo principal -->
-    <div class="relative z-10 container-section py-20 lg:py-32">
+    <div class="relative z-10 container-section py-12 lg:py-20">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         
         <!-- Coluna de texto -->
@@ -25,13 +45,13 @@
           
           <!-- CTAs -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button @click="handleRequestQuote" class="bg-gradient-secondary text-primary-950 font-semibold px-8 py-4 rounded-xl shadow-glow-secondary hover:shadow-xl transition-all duration-300">
+            <a href="https://wa.me/5541998247111?text=Olá! Gostaria de solicitar um orçamento para manutenção de lavanderia." target="_blank" rel="noopener noreferrer" class="bg-gradient-secondary text-primary-950 font-semibold px-8 py-4 rounded-xl shadow-glow-secondary hover:shadow-xl transition-all duration-300 text-center">
               Pedir Orçamento
-            </button>
+            </a>
             
-            <button @click="handleWhatsAppContact" class="bg-primary-950/20 text-white border border-secondary-500/30 font-semibold px-8 py-4 rounded-xl hover:bg-primary-950/30 transition-all duration-300">
+            <a href="https://wa.me/5541998247111?text=Olá! Gostaria de falar sobre os serviços de manutenção." target="_blank" rel="noopener noreferrer" class="bg-primary-950/20 text-white border border-secondary-500/30 font-semibold px-8 py-4 rounded-xl hover:bg-primary-950/30 transition-all duration-300 text-center">
               Falar no WhatsApp
-            </button>
+            </a>
           </div>
         </div>
         
@@ -67,18 +87,5 @@
 </template>
 
 <script setup lang="ts">
-// Emits para ações dos botões
-const emit = defineEmits<{
-  'request-quote': []
-  'contact-whatsapp': []
-}>()
-
-// Métodos para lidar com cliques nos CTAs
-const handleRequestQuote = (): void => {
-  emit('request-quote')
-}
-
-const handleWhatsAppContact = (): void => {
-  emit('contact-whatsapp')
-}
+// Componente Hero com links diretos para WhatsApp
 </script>

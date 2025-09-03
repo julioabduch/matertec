@@ -118,12 +118,12 @@
             Precisa de algum desses serviços? Entre em contato conosco!
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button class="btn-primary">
+            <a href="https://wa.me/5541998247111?text=Olá! Gostaria de solicitar um orçamento para os serviços de lavanderia." target="_blank" rel="noopener noreferrer" class="btn-primary text-center">
               Solicitar Orçamento
-            </button>
-            <button class="btn-secondary">
+            </a>
+            <a href="https://wa.me/5541998247111?text=Olá! Gostaria de falar sobre os serviços disponíveis." target="_blank" rel="noopener noreferrer" class="btn-secondary text-center">
               Falar no WhatsApp
-            </button>
+            </a>
           </div>
         </div>
 

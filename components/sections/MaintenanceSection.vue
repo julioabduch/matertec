@@ -189,12 +189,12 @@
             Precisa de manutenção especializada? Agende uma visita técnica!
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button class="btn-primary">
+            <a href="https://wa.me/5541998247111?text=Olá! Gostaria de agendar uma manutenção especializada." target="_blank" rel="noopener noreferrer" class="btn-primary text-center">
               Agendar Manutenção
-            </button>
-            <button class="btn-secondary">
+            </a>
+            <a href="https://wa.me/5541998247111?text=Olá! Gostaria de solicitar um orçamento para manutenção." target="_blank" rel="noopener noreferrer" class="btn-secondary text-center">
               Solicitar Orçamento
-            </button>
+            </a>
           </div>
         </div>
 
